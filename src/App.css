@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&family=Press+Start+2P&display=swap");
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1rem + 2vmin);
+  font-family: "Press Start 2P", serif;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.pokemon-item {
+  text-align: center;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.pokemon-item:hover {
+  opacity: 1;
+}
+
+.card-media {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card-media:hover {
+  transform: scale(1.1);
+}
+
+.card-media:active {
+  transform: scale(1.4);
+}
+
+.card-type {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card-type:hover {
+  transform: scale(1.1);
+}
+
+.card-type:active {
+  transform: scale(1.4);
+}
+
+.pokemon-name {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-align: center;
+}
+
+.pokemon-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  font-family: "Press Start 2P", serif;
+  text-transform: capitalize;
+}
+
+.stat-value {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.stat-green {
+  color: #2ecc71;
+}
+
+.stat-yellow {
+  color: #f1c40f;
+}
+
+.stat-red {
+  color: #e74c3c;
+}
+
+.stat-black {
+  color: #2c3e50;
+}
