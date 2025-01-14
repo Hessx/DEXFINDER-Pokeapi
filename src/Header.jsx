@@ -8,7 +8,7 @@ function Header({ pokemons, handleSearch }) {
     <Container style={{ backgroundColor: "#282c34" }}>
       <Autocomplete
         options={pokemons.map((pokemon) => pokemon.name)}
-        onInputChange={(_, value) => handleSearch(value)} // Passa o valor corretamente para handleSearch
+        onInputChange={(_, value) => handleSearch(value)}
         renderInput={(params) => (
           <TextField
             {...params}
@@ -16,7 +16,7 @@ function Header({ pokemons, handleSearch }) {
             variant="filled"
             fullWidth
             sx={{
-              margin: "auto", // Margem superior e inferior unificada
+              margin: "auto",
               width: "50%",
               borderRadius: "8px",
               textAlign: "center",
